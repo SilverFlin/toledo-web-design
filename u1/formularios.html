@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formularios</title>
+    
+  </head>
+  <body>
+    <header>
+      <h1>Formularios</h1>
+    </header>
+    <main>
+      <div>
+        <h2>¿Dudas y Consultas?: Envía tu mensaje aquí</h2>
+        <p>
+          ¡No dudes en enviarnos un mensaje si tienes alguna pregunta o
+          consulta! Estamos aquí para ayudarte en tu proceso de aprendizaje.
+        </p>
+      </div>
+      <div>
+        <form action="#" method="post">
+          <label for="name">Nombre</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            pattern="[A-Za-z ]{1,50}"
+            placeholder="Escribe tu Nombre"
+          />
+          <br>
+          <label for="phone">Teléfono</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{10}"
+            placeholder="Escribe tu Teléfono"
+            maxlength="10"
+          />
+          <br>
+            <label for="options">Opciones</label>
+        <select id="options" name="options">
+          <option value="estudiante">Estudiante</option>
+          <option value="empleado">Empleado</option>
+          <option value="egresado">Egresado</option>
+          <option value="aspirante">Aspirante</option>
+        </select>
+          <br>
+          <label for="mensaje">Mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="Escribe tu mensaje"
+          ></textarea>
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>

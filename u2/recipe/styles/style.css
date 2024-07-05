@@ -1,0 +1,111 @@
+.flex {
+    display: flex;
+}
+
+.h-\[28\.6875rem\] {
+    height: 28.6875rem;
+}
+
+.h-\[28\.687rem\] {
+    height: 28.687rem;
+}
+
+.h-\[8\.875rem\] {
+    height: 8.875rem;
+}
+
+.w-\[40rem\] {
+    width: 40rem;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-start {
+    align-items: flex-start;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.gap-\[0\.625rem\] {
+    gap: 0.625rem;
+}
+
+.gap-\[1\.5rem\] {
+    gap: 1.5rem;
+}
+
+.self-stretch {
+    align-self: stretch;
+}
+
+.rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.border-\[1px\] {
+    border-width: 1px;
+}
+
+.border-t-4 {
+    border-top-width: 4px;
+}
+
+.border-black {
+    border-color: rgb(0 0 0);
+}
+
+.bg-cover {
+    background-size: cover;
+}
+
+.p-\[0\.625rem\] {
+    padding: 0.625rem;
+}
+
+.px-\[0rem\] {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.py-\[0\.875rem\] {
+    padding-top: 0.875rem;
+    padding-bottom: 0.875rem;
+}
+
+.font-serif {
+    font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+.text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+.font-\[1\.5rem\] {
+    font-weight: 1.5rem;
+}
+
+.font-\[2rem\] {
+    font-weight: 2rem;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+.font-extralight {
+    font-weight: 200;
+}
+
+.underline {
+    text-decoration-line: underline;
+}
+

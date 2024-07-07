@@ -27,25 +27,30 @@
         </a>
     </nav>
 
-    <main class="flex w-full pb-[1rem] flex-col items-start gap-[0.625rem]">
+    <main class="flex w-full pb-[1rem] flex-col justify-center items-center gap-[0.625rem]">
         <section class="flex py-[1.70rem] flex-col px-[2rem] items-center gap-[1.8125rem] bg-main self-stretch">
-            <div class="flex flex-col justify-center items-center gap-[1.375rem] self-stretch">
-                <h1 class="text-[1.25rem] font-bold text-center text-header">Una foto vale más que mil palabras</h1>
-                <p class="text-normal text-center text-[0.75rem]">Captura tus momentos más preciados de manera sencilla
+            <div class="flex flex-col md:px-[12.4375rem] justify-center items-center gap-[1.375rem] self-stretch">
+                <h1 class="text-[1.25rem] md:text-[2rem] font-bold text-center text-header">Una foto vale más que mil
+                    palabras</h1>
+                <p class="text-normal text-center text-[0.75rem] md:text-[0.875rem]">Captura tus momentos más preciados
+                    de manera sencilla
                     y profesional con nuestros paquetes de
                     fotografía personalizados.</p>
                 <a href="#"
-                    class="flex px-[0.625rem] py-[0.3125rem] justify-center gap-[0.625rem] bg-primary text-white rounded-md shadow-lg text-[0.75rem] font-bold">
+                    class="flex px-[0.625rem] py-[0.3125rem] justify-center gap-[0.625rem] bg-primary text-white rounded-md shadow-lg text-[0.75rem] md:text-[1rem] font-bold">
                     Conoce los paquetes
                 </a>
             </div>
-            <video class="h-[10.875rem] rounded-md shadow-2xl" controls autoplay>
+            <video class="h-[10.875rem] w-full md:h-[20.4375rem] md:w-[46rem] rounded-md shadow-2xl object-cover"
+                controls autoplay>
                 <source src="./videos/main.mp4" type="video/mp4">
             </video>
         </section>
-        <section class="flex w-[24.35rem] py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem] gap-[0.625rem]">
-            <h2 class="font-bold text-center text-header">Más de 5000 clientes satisfechos</h2>
-            <div class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] self-stretch">
+        <section
+            class="flex w-[24.35rem] md:w-full py-[0.625rem] justify-center px-[2rem] flex-col items-center gap-[0.625rem]">
+            <h2 class="font-bold text-center text-header md:text-[1.5rem]">Más de 5000 clientes satisfechos</h2>
+            <div
+                class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] md:flex-row md:gap-[6rem] self-stretch">
                 <div
                     class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] bg-gray-100 shadow-lg">
 
@@ -71,63 +76,66 @@
                 </div>
             </div>
         </section>
-        <section class="flex w-[24.375rem] py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem]">
+        <section
+            class="flex w-[24.375rem] md:w-[62.8125rem] py-[0.625rem] md:pb-[2rem] px-[2rem] md:px-[9.625rem] flex-col items-center gap-[0.625rem]">
             <div class="flex flex-col items-center gap-[0.625rem] self-stretch">
-                <h2 class="text-header text-center font-bold">El servicio de fotografía más conveniente de México</h2>
-                <p class="text-normal text-[0.75rem] text-center font-light">Agenda en unos cuantos clics y disfruta
+                <h2 class="text-header text-center md:text-[1.5rem] font-bold">El servicio de fotografía más conveniente
+                    de México</h2>
+                <p class="text-normal text-[0.75rem] md:text-[1rem] text-center font-light">Agenda en unos cuantos clics
+                    y disfruta
                     plenamente de
                     tu evento.</p>
             </div>
-            <img class="bg-primary h-[10.5rem] w-full self-stretch shadow-lg rounded-md object-cover"
+            <img class="bg-primary h-[10.5rem] md:h-[19.5rem] w-full self-stretch shadow-2xl rounded-md object-cover"
                 src="./img/section-1.png" alt="">
         </section>
 
-        <section>
-            <h2 class="text-header text-center font-bold">Mucho más que un servicio</h2>
-            <div class="flex flex-col justify-center items-center gap-[0.625rem] self-stretch">
+        <section class="flex w-[24.375rem] md:w-full px-[2rem] py-[0.625rem] flex-col items-center gap-[4rem]">
+            <h2 class="text-header text-center text-[1.5rem] font-bold">Mucho más que un servicio</h2>
+            <div class="flex flex-col md:px-[7.5rem] justify-center items-center gap-[0.625rem] self-stretch">
+
                 <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
-                    <img class="h-[10.5rem] w-full flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg object-cover"
-                        src="./img/section-2.png" alt="">
-                    <div
-                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
-                        <h3 class="text-header text-[0.6875rem] font-bold">Captura Profesional</h3>
-                        <p class="text-normal text-[0.5875rem] font-light">Cada evento es cubierto por fotógrafos
+                    <img class="h-full md:w-[35rem] rounded-md shadow-lg object-cover" src="./img/section-2.png" alt="">
+                    <div class="flex flex-col md:w-[35rem] justify-center items-start gap-[0.625rem] ">
+                        <h3 class="text-header text-[0.6875rem] md:text-[1rem] font-bold">Captura Profesional</h3>
+                        <p class="text-normal text-[0.5875rem] md:text-[0.875rem] font-light">Cada evento es cubierto
+                            por fotógrafos
                             altamente capacitados que utilizan equipos de última
                             generación para asegurar la mejor calidad en cada toma.</p>
                     </div>
                 </div>
+
                 <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
-                    <div
-                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
-                        <h3 class="text-header text-[0.6875rem] font-bold">Personalización Total</h3>
-                        <p class="text-normal text-[0.5875rem] font-light">Nos adaptamos a tus necesidades y estilo,
-                            ofreciendo paquetes personalizados que reflejan la esencia de tu evento, ya sea una boda,
-                            graduación o cualquier ocasión especial.</p>
+                    <div class="flex flex-col md:w-[35rem] justify-center items-start gap-[0.625rem] ">
+                        <h3 class="text-header text-[0.6875rem] md:text-[1rem] font-bold">Entrega Rápida y Segura</h3>
+                        <p class="text-normal text-[0.5875rem] md:text-[0.875rem] font-light">Recibe tus fotos de manera
+                            rápida y segura a través de nuestras plataformas digitales, garantizando que puedas revivir
+                            tus recuerdos sin demoras.</p>
                     </div>
-                    <img class="h-[10.5rem] w-full flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg object-cover"
-                        src="./img/section-3.png" alt="">
+                    <img class="h-full md:w-[35rem] rounded-md shadow-lg object-cover" src="./img/section-4.png" alt="">
                 </div>
+
                 <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
-                    <img class="h-[10.5rem] w-full flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg object-cover"
-                        src="./img/section-4.png" alt="">
-                    <div
-                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
-                        <h3 class="text-header text-[0.6875rem] font-bold">Entrega Rápida y Segura</h3>
-                        <p class="text-normal text-[0.5875rem] font-light">Recibe tus fotos de manera rápida y segura a
-                            través de nuestras plataformas digitales, garantizando que puedas revivir tus recuerdos sin
-                            demoras.</p>
+                    <img class="h-full md:w-[35rem] rounded-md shadow-lg object-cover" src="./img/section-3.png" alt="">
+                    <div class="flex flex-col md:w-[35rem] justify-center items-start gap-[0.625rem] ">
+                        <h3 class="text-header text-[0.6875rem] md:text-[1rem] font-bold">Personalización Total</h3>
+                        <p class="text-normal text-[0.5875rem] md:text-[0.875rem] font-light">Nos adaptamos a tus
+                            necesidades y estilo, ofreciendo paquetes personalizados que reflejan la esencia de tu
+                            evento, ya sea una boda, graduación o cualquier ocasión especial.</p>
                     </div>
                 </div>
+
             </div>
         </section>
         <section class="flex w-full py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem]">
-            <h2 class="text-header text-center font-bold " id="sec-precios">Contrata el paquete que más se adecue a tu
+            <h2 class="text-header text-center md:text-[1.5rem] font-bold " id="sec-precios">Contrata el paquete que más
+                se adecue a tu
                 evento</h2>
-            <div class="flex items-start gap-[0.625rem] self-stretch">
+            <div class="flex items-center justify-center gap-[0.625rem] md:px-[9rem] md:gap-[5rem] self-stretch">
                 <!-- Tarjetitas -->
                 <div
-                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
-                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                    class="flex md:w-[15rem] md:px-[2rem] p-[0.625rem] flex-col items-center gap-[0.625rem]  self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex flex-col items-start self-stretch">
                         <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">Sencillo</h1>
                         <p class="text-normal text-[0.5rem] font-light text-center">Para quienes buscan una opción
                             práctica y accesible, cubriendo lo esencial de tu evento.</p>
@@ -138,9 +146,9 @@
                         Obten el paquete sencillo
                     </a>
 
-                    <div class="flex flex-col justify-center items-start self-stretch">
+                    <div class="flex  flex-col justify-center items-start self-stretch">
                         <p class="font-bold text-[0.5rem]">Incluye:</p>
-                        <ul class="text-[0.5rem] list-disc">
+                        <ul class="text-[0.5rem] pl-[0.5rem] list-disc">
                             <li>25 Fotos</li>
                             <li>Edición estándar</li>
                             <li>Entrega digital en 5 días</li>
@@ -149,8 +157,8 @@
 
                 </div>
                 <div
-                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
-                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                    class="flex md:w-[15rem] md:px-[2rem] p-[0.625rem] flex-col items-center gap-[0.625rem]  self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex  flex-col items-start self-stretch">
                         <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">Premium</h1>
                         <p class="text-normal text-[0.5rem] font-light text-center">Para quienes desean mayor cobertura
                             y calidad en cada toma.</p>
@@ -158,7 +166,7 @@
                     <p class="font-bold text-[0.75rem] text-center">$999 MXN</p>
                     <a href="#"
                         class="flex px-[0.175rem] py-[.25rem] justify-center bg-primary text-center text-white rounded-md shadow-lg text-[0.5rem] font-bold">
-                        Obten el paquete sencillo
+                        Obten el paquete premium
                     </a>
 
                     <div class="flex flex-col justify-center items-start self-stretch">
@@ -174,8 +182,8 @@
 
                 </div>
                 <div
-                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
-                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                    class="flex md:w-[15rem] md:px-[2rem] p-[0.625rem] flex-col items-center gap-[0.625rem] self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex flex-col items-start self-stretch">
                         <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">VIP</h1>
                         <p class="text-normal text-[0.5rem] font-light text-center">Para eventos exclusivos, ofreciendo
                             lujo y máxima atención al detalle.</p>
@@ -183,12 +191,12 @@
                     <p class="font-bold text-[0.75rem] text-center">$1999 MXN</p>
                     <a href="#"
                         class="flex px-[0.175rem] py-[.25rem] justify-center bg-primary text-center text-white rounded-md shadow-lg text-[0.5rem] font-bold">
-                        Obten el paquete sencillo
+                        Obten el paquete VIP
                     </a>
 
                     <div class="flex flex-col justify-center items-start self-stretch">
                         <p class="font-bold text-[0.5rem]">Incluye:</p>
-                        <ul class="text-[0.5rem] list-disc">
+                        <ul class="text-[0.5rem] pl-[0.5rem] list-disc">
                             <li>100 Fotos</li>
                             <li>Edición profesional completa</li>
                             <li>Álbum físico y digital personalizado</li>

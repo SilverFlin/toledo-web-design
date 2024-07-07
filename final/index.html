@@ -8,6 +8,7 @@
     <title></title>
     <link href="./styles.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -20,14 +21,180 @@
                 <a href="#" class="text-[0.875rem] font-light text-normal">PRECIOS</a>
             </div>
         </div>
-        <button type="button"
+        <a href="#"
             class="flex px-[0.625rem] py-[0.3125rem] justify-center gap-[0.625rem] bg-primary text-white rounded-md shadow-lg">
             RESERVA
-        </button>
+        </a>
     </nav>
 
-    <main>
+    <main class="flex w-full pb-[1rem] flex-col items-start gap-[0.625rem]">
+        <section class="flex py-[1.70rem] flex-col px-[2rem] items-center gap-[1.8125rem] bg-main self-stretch">
+            <div class="flex flex-col justify-center items-center gap-[1.375rem] self-stretch">
+                <h1 class="text-[1.25rem] font-bold text-center text-header">Una foto vale más que mil palabras</h1>
+                <p class="text-normal text-center text-[0.75rem]">Captura tus momentos más preciados de manera sencilla
+                    y profesional con nuestros paquetes de
+                    fotografía personalizados.</p>
+                <a href="#"
+                    class="flex px-[0.625rem] py-[0.3125rem] justify-center gap-[0.625rem] bg-primary text-white rounded-md shadow-lg text-[0.75rem] font-bold">
+                    Conoce los paquetes
+                </a>
+            </div>
+            <video class="w-full h-[10.875rem] rounded-md shadow-lg" controls autoplay>
+                <source src="~/school/toledo-web-design/videos/atardecer.mp4" type="video/mp4">
+            </video>
+        </section>
+        <section class="flex w-[24.35rem] py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem] gap-[0.625rem]">
+            <h2 class="font-bold text-center text-header">Más de 5000 clientes satisfechos</h2>
+            <div class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] self-stretch">
+                <div
+                    class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] bg-gray-100 shadow-lg">
 
+                    <i class="fa fa-quote-left w-[1.5625rem] h-[1.5625rem]" aria-hidden="true"></i>
+                    <p class="text-normal text-center text-[0.625rem] font-bold">No solo pude disfrutar de mi boda,
+                        ahora tengo un recuerdo eterno de ella.</p>
+                    <div class="flex justify-center items-center gap-[0.625rem]">
+                        <img class="w-[1.25rem] h-[1.25rem] bg-primary rounded-full" src="" alt="">
+                        <p class="text-normal text-center font-light text-[0.625rem] italic ">Luis Toledo</p>
+                    </div>
+                </div>
+                <div
+                    class="flex p-[0.625rem] flex-col justify-center items-center gap-[0.625rem] bg-gray-100 shadow-lg">
+
+                    <i class="fa fa-quote-left w-[1.5625rem] h-[1.5625rem]" aria-hidden="true"></i>
+                    <p class="text-normal text-center text-[0.625rem] font-bold">
+                        Gracias a sus servicios, las fotos de mi graduación son increíbles y llenas de vida.</p>
+                    <div class="flex justify-center items-center gap-[0.625rem]">
+                        <img class="w-[1.25rem] h-[1.25rem] bg-primary rounded-full" src="" alt="">
+                        <p class="text-normal text-center font-light text-[0.625rem] italic ">Ana Martinez</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex w-[24.375rem] py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem]">
+            <div class="flex flex-col items-center gap-[0.625rem] self-stretch">
+                <h2 class="text-header text-center font-bold">El servicio de fotografía más conveniente de México</h2>
+                <p class="text-normal text-[0.75rem] text-center font-light">Agenda en unos cuantos clics y disfruta
+                    plenamente de
+                    tu evento.</p>
+            </div>
+            <img class="bg-primary h-[10.5rem] self-stretch shadow-lg rounded-md" src="" alt="">
+        </section>
+
+        <section>
+            <h2 class="text-header text-center font-bold">Mucho más que un servicio</h2>
+            <div class="flex flex-col justify-center items-center gap-[0.625rem] self-stretch">
+                <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
+                    <img class="h-[10.5rem] flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg" src="" alt="">
+                    <div
+                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
+                        <h3 class="text-header text-[0.6875rem] font-bold">Captura Profesional</h3>
+                        <p class="text-normal text-[0.5875rem] font-light">Cada evento es cubierto por fotógrafos
+                            altamente capacitados que utilizan equipos de última
+                            generación para asegurar la mejor calidad en cada toma.</p>
+                    </div>
+                </div>
+                <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
+                    <div
+                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
+                        <h3 class="text-header text-[0.6875rem] font-bold">Personalización Total</h3>
+                        <p class="text-normal text-[0.5875rem] font-light">Nos adaptamos a tus necesidades y estilo,
+                            ofreciendo paquetes personalizados que reflejan la esencia de tu evento, ya sea una boda,
+                            graduación o cualquier ocasión especial.</p>
+                    </div>
+                    <img class="h-[10.5rem] flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg" src="" alt="">
+                </div>
+                <div class="flex h-[12.327rem] px-[1rem] justify-center items-center gap-[1.6875rem] self-stretch">
+                    <img class="h-[10.5rem] flex-grow flex-shrink-0 basis-0 rounded-md shadow-lg" src="" alt="">
+                    <div
+                        class="flex flex-col justify-center items-start gap-[0.625rem] flex-shrink-0 flex-grow basis-0">
+                        <h3 class="text-header text-[0.6875rem] font-bold">Entrega Rápida y Segura</h3>
+                        <p class="text-normal text-[0.5875rem] font-light">Recibe tus fotos de manera rápida y segura a
+                            través de nuestras plataformas digitales, garantizando que puedas revivir tus recuerdos sin
+                            demoras.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="flex w-full py-[0.625rem] px-[2rem] flex-col items-center gap-[0.625rem]">
+            <h2 class="text-header text-center font-bold ">Contrata el paquete que más se adecue a tu evento</h2>
+            <div class="flex items-start gap-[0.625rem] self-stretch">
+                <!-- Tarjetitas -->
+                <div
+                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                        <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">Sencillo</h1>
+                        <p class="text-normal text-[0.5rem] font-light text-center">Para quienes buscan una opción
+                            práctica y accesible, cubriendo lo esencial de tu evento.</p>
+                    </div>
+                    <p class="font-bold text-[0.75rem] text-center">$499 MXN</p>
+                    <a href="#"
+                        class="flex px-[0.175rem] py-[.25rem] justify-center bg-primary text-center text-white rounded-md shadow-lg text-[0.5rem] font-bold">
+                        Obten el paquete sencillo
+                    </a>
+
+                    <div class="flex flex-col justify-center items-start self-stretch">
+                        <p class="font-bold text-[0.5rem]">Incluye:</p>
+                        <ul class="text-[0.5rem] list-disc">
+                            <li>25 Fotos</li>
+                            <li>Edición estándar</li>
+                            <li>Entrega digital en 5 días</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div
+                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                        <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">Premium</h1>
+                        <p class="text-normal text-[0.5rem] font-light text-center">Para quienes desean mayor cobertura
+                            y calidad en cada toma.</p>
+                    </div>
+                    <p class="font-bold text-[0.75rem] text-center">$999 MXN</p>
+                    <a href="#"
+                        class="flex px-[0.175rem] py-[.25rem] justify-center bg-primary text-center text-white rounded-md shadow-lg text-[0.5rem] font-bold">
+                        Obten el paquete sencillo
+                    </a>
+
+                    <div class="flex flex-col justify-center items-start self-stretch">
+                        <p class="font-bold text-[0.5rem]">Incluye:</p>
+                        <ul class="text-[0.5rem] list-disc pl-[0.5rem]">
+                            <li>50 fotos</li>
+                            <li>Edición Avanzada</li>
+                            <li>Álbum digital personalizado</li>
+                            <li>Entrega digital en 3 días</li>
+                            <li>5 impresiones en tamaño 5x7</li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div
+                    class="flex p-[0.625rem] flex-col items-center gap-[0.625rem] flex-grow flex-shrink-0 basis-0 self-stretch rounded-md shadow-2xl bg-white">
+                    <div class="flex min-h-[4.375rem] flex-col items-start self-stretch">
+                        <h1 class="text-header text-center text-[0.875rem] font-bold self-stretch">VIP</h1>
+                        <p class="text-normal text-[0.5rem] font-light text-center">Para eventos exclusivos, ofreciendo
+                            lujo y máxima atención al detalle.</p>
+                    </div>
+                    <p class="font-bold text-[0.75rem] text-center">$1999 MXN</p>
+                    <a href="#"
+                        class="flex px-[0.175rem] py-[.25rem] justify-center bg-primary text-center text-white rounded-md shadow-lg text-[0.5rem] font-bold">
+                        Obten el paquete sencillo
+                    </a>
+
+                    <div class="flex flex-col justify-center items-start self-stretch">
+                        <p class="font-bold text-[0.5rem]">Incluye:</p>
+                        <ul class="text-[0.5rem] list-disc">
+                            <li>100 Fotos</li>
+                            <li>Edición profesional completa</li>
+                            <li>Álbum físico y digital personalizado</li>
+                            <li>Entrega digital en 24 horas</li>
+                            <li>10 impresiones en tamaño 8x10</li>
+                            <li>Sesión de fotos adicional de 1 hora</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="flex w-full p-[0.625rem] items-start gap-[0.625rem]">
@@ -41,9 +208,9 @@
             <div class="flex p-[0.625rem] justify-center items-center gap-[0.625rem]">
                 <a href="#" class="text-[0.5rem] font-light text-normal">Inicio</a>
                 <a href="#" class="text-[0.5rem] font-light text-normal">Precios</a>
-                <button type="button"
+                <a href="#"
                     class="flex px-[0.3125rem] text-[0.5rem] py-[0.125rem] justify-center gap-[0.625rem] bg-primary text-white rounded-md shadow-lg">
-                    Reserva
+                    Reserva </a>
             </div>
         </div>
     </footer>
@@ -59,8 +226,16 @@
         background-color: #2ECC71;
     }
 
+    .bg-main {
+        background-color: #F7EEEE;
+    }
+
     .text-normal {
         color: #666;
+    }
+
+    .text-header {
+        color: #333;
     }
 </style>
 
